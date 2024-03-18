@@ -1,30 +1,18 @@
-# React + TypeScript + Vite
+Snapgram
+Build a modern social app with a stunning UI, native mobile feel, infinite scroll feature, and amazing performance using React JS, Appwrite, TypeScript, and more.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description
+This project aims to create a modern social application with a focus on providing users with a seamless and visually appealing experience. The app will feature a stunning UI that resembles native mobile applications, leveraging technologies such as React JS, Appwrite, TypeScript, and more to achieve this goal. Key features include infinite scroll, real-time updates, user authentication, and robust backend integration.
 
-Currently, two official plugins are available:
+Technologies Used
+React JS
+Appwrite
+TypeScript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Stunning UI: A visually appealing user interface designed to provide a native mobile experience.
+Infinite Scroll: Implement infinite scrolling to enhance the user experience and optimize performance.
+Real-time Updates: Utilize real-time updates to ensure users receive the latest content without refreshing the page.
+User Authentication: Implement secure user authentication using Appwrite or other authentication providers.
+Backend Integration: Integrate with Appwrite or other backend services to store and manage user data, posts, and other content.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
